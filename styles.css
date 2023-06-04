@@ -5,6 +5,10 @@ body {
     background-color: rgb(170, 170, 243);
 }
 
+body > h1, body > p {
+    color: white;
+}
+
 h1,p{
     text-align: center;
 
@@ -28,4 +32,12 @@ h1,p{
     border: none;
     margin-top: 5px;
 
+}
+
+form p {
+    text-align: left;
+}
+
+textarea {
+    text-align: center;
 }
