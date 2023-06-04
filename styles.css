@@ -1,0 +1,12 @@
+h1,p{
+    text-align: center;
+
+}form{
+    margin: 0 auto;
+    width: 80%;
+    background-color: lightblue;
+
+}#name,#email-label,#number{
+    width: 90%;
+
+}
