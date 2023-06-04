@@ -15,7 +15,17 @@ h1,p{
     border-radius: 10px;
     padding: 20px;
 
-}#name,#email-label,#number{
+}#name,#email-label,#number,#submit{
     width: 90%;
+    padding: 7px;
+
+}
+#email-label,#name-label,#number-label{
+    margin: 5px;
+}#submit{
+    background-color: rgb(27, 231, 27);
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
 
 }
