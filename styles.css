@@ -23,6 +23,16 @@ h1,p{
     width: 90%;
     padding: 7px;
 
+}label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 #email-label,#name-label,#number-label{
     margin: 5px;
@@ -31,6 +41,8 @@ h1,p{
     border-radius: 5px;
     border: none;
     margin-top: 5px;
+    cursor: pointer;
+    display: block;
 
 }
 
@@ -39,5 +51,9 @@ form p {
 }
 
 textarea {
+    width: 90%;
+    padding: 30px;
+    resize: vertical;
+    min-width: 120px;
     text-align: center;
 }
